@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import { HashRouter , Routes, Route, useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
 import Profile from "./pages/Profile/Profile";
 import ForgotPassword from "./pages/ForgotPassword/ForgotPassword";
@@ -136,8 +136,8 @@ function Layout() {
 
 export default function App() {
     return (
-        <BrowserRouter>
+        <HashRouter >
             <Layout />
-        </BrowserRouter>
+        </HashRouter >
     );
 }
