@@ -1,0 +1,113 @@
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal {
+    background: #ffffff;
+    width: 480px;
+    padding: 36px;
+    border-radius: 24px;
+    position: relative;
+    text-align: center;
+}
+
+.close-btn {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    border: none;
+    background: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.modal h2 {
+    font-size: 32px;
+    font-weight: 800;
+    color: #0b1f4b;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: #5c6f8a;
+    margin-bottom: 24px;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.register-form label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 14px;
+    color: #7a8aa0;
+}
+
+.register-form input {
+    width: 100%;
+    margin-top: 6px;
+    padding: 14px 16px;
+    border-radius: 12px;
+    border: none;
+    background: #eeeeee;
+    font-size: 16px;
+}
+
+.password-field {
+    width: 100%;
+    position: relative;
+}
+
+.eye {
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.terms {
+    flex-direction: row;
+    gap: 8px;
+    font-size: 13px;
+}
+
+.terms a {
+    color: #3b82f6;
+    text-decoration: none;
+}
+
+.submit-btn {
+    margin-top: 10px;
+    padding: 16px;
+    border-radius: 14px;
+    border: none;
+    background: #355c9a;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.login-link {
+    margin-top: 18px;
+    font-size: 14px;
+    color: #5c6f8a;
+}
+
+.login-link span {
+    color: #355c9a;
+    font-weight: 600;
+    cursor: pointer;
+}

@@ -1,0 +1,92 @@
+.how {
+    padding: 100px 0 120px;
+    background: #eef6fb;
+}
+
+
+.how-top {
+    display: grid;
+    grid-template-columns: 1.3fr 0.7fr;
+    align-items: center;
+    gap: 20px;
+}
+
+.how-text {
+    max-width: 560px;
+}
+
+.how-text h1 {
+    font-size: 48px;       /* было 42 */
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.how-text p {
+    font-size: 20px;       /* было 18 */
+    line-height: 1.6;
+    max-width: 560px;
+}
+
+
+.how-image {
+    position: relative;
+}
+
+.how-image img {
+    width: 460px;
+    position: relative;
+    z-index: 1; /* мишка под карточкой */
+}
+
+
+.how-steps {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 36px;
+}
+
+
+/* карточка */
+.how-card {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 28px;
+    min-height: 220px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+}
+
+/* иконка в кружке */
+.how-card .icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #e6f1ff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 22px;
+    color: #3b82f6;
+}
+
+/* заголовок карточки */
+.how-card h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #0b1f4b;
+    margin: 0;
+}
+
+/* текст карточки */
+.how-card p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #4a5d7a;
+}
